@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="5" hostname="lubos-Vostro-3350" id="0" name="MessageControllerTests" package="grails" tests="8" time="0.621" timestamp="2012-07-16T12:20:40">
+      <properties />
+
+      <testcase classname="grails.MessageControllerTests" name="testIndex" time="0.244" />
+
+      <testcase classname="grails.MessageControllerTests" name="testList" time="0.04" />
+
+      <testcase classname="grails.MessageControllerTests" name="testCreate" time="0.038" />
+
+      <testcase classname="grails.MessageControllerTests" name="testSave" time="0.053">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/message/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c1d740c&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/message/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c1d740c
+
+	at grails.MessageControllerTests.testSave(MessageControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.MessageControllerTests" name="testShow" time="0.073">
+          <failure message="Assertion failed: &#xa;&#xa;assert message.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Message : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert message.save() != null
+       |       |      |
+       |       null   false
+       grails.Message : null
+
+	at grails.MessageControllerTests.testShow(MessageControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.MessageControllerTests" name="testEdit" time="0.055">
+          <failure message="Assertion failed: &#xa;&#xa;assert message.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Message : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert message.save() != null
+       |       |      |
+       |       null   false
+       grails.Message : null
+
+	at grails.MessageControllerTests.testEdit(MessageControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.MessageControllerTests" name="testUpdate" time="0.055">
+          <failure message="Assertion failed: &#xa;&#xa;assert message.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Message : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert message.save() != null
+       |       |      |
+       |       null   false
+       grails.Message : null
+
+	at grails.MessageControllerTests.testUpdate(MessageControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.MessageControllerTests" name="testDelete" time="0.05">
+          <failure message="Assertion failed: &#xa;&#xa;assert message.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Message : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert message.save() != null
+       |       |      |
+       |       null   false
+       grails.Message : null
+
+	at grails.MessageControllerTests.testDelete(MessageControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lubos-Vostro-3350" id="1" name="MessageTests" package="grails" tests="1" time="0.236" timestamp="2012-07-16T12:20:36">
+      <properties />
+
+      <testcase classname="grails.MessageTests" name="testSomething" time="0.116" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="lubos-Vostro-3350" id="2" name="SponsorControllerTests" package="grails" tests="8" time="0.93" timestamp="2012-07-16T12:20:36">
+      <properties />
+
+      <testcase classname="grails.SponsorControllerTests" name="testIndex" time="0.321" />
+
+      <testcase classname="grails.SponsorControllerTests" name="testList" time="0.063" />
+
+      <testcase classname="grails.SponsorControllerTests" name="testCreate" time="0.057" />
+
+      <testcase classname="grails.SponsorControllerTests" name="testSave" time="0.075">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/sponsor/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@566dc8f0&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/sponsor/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@566dc8f0
+
+	at grails.SponsorControllerTests.testSave(SponsorControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorControllerTests" name="testShow" time="0.089">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsor.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Sponsor@6ac6b7ee (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsor.save() != null
+       |       |      |
+       |       null   false
+       grails.Sponsor@6ac6b7ee (toString() == null)
+
+	at grails.SponsorControllerTests.testShow(SponsorControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorControllerTests" name="testEdit" time="0.07">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsor.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Sponsor@2de8d9d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsor.save() != null
+       |       |      |
+       |       null   false
+       grails.Sponsor@2de8d9d (toString() == null)
+
+	at grails.SponsorControllerTests.testEdit(SponsorControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorControllerTests" name="testUpdate" time="0.063">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsor.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Sponsor@4f88045a (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsor.save() != null
+       |       |      |
+       |       null   false
+       grails.Sponsor@4f88045a (toString() == null)
+
+	at grails.SponsorControllerTests.testUpdate(SponsorControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorControllerTests" name="testDelete" time="0.068">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsor.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.Sponsor@48ce015f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsor.save() != null
+       |       |      |
+       |       null   false
+       grails.Sponsor@48ce015f (toString() == null)
+
+	at grails.SponsorControllerTests.testDelete(SponsorControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lubos-Vostro-3350" id="3" name="SponsorTests" package="grails" tests="1" time="0.173" timestamp="2012-07-16T12:20:38">
+      <properties />
+
+      <testcase classname="grails.SponsorTests" name="testSomething" time="0.113" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="lubos-Vostro-3350" id="4" name="SponsorshipControllerTests" package="grails" tests="8" time="0.79" timestamp="2012-07-16T12:20:39">
+      <properties />
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testIndex" time="0.313" />
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testList" time="0.044" />
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testCreate" time="0.039" />
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testSave" time="0.047">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/sponsorship/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@138a92e7&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/sponsorship/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@138a92e7
+
+	at grails.SponsorshipControllerTests.testSave(SponsorshipControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testShow" time="0.071">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsorship.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       grails.Sponsorship : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsorship.save() != null
+       |           |      |
+       |           null   false
+       grails.Sponsorship : null
+
+	at grails.SponsorshipControllerTests.testShow(SponsorshipControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testEdit" time="0.053">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsorship.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       grails.Sponsorship : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsorship.save() != null
+       |           |      |
+       |           null   false
+       grails.Sponsorship : null
+
+	at grails.SponsorshipControllerTests.testEdit(SponsorshipControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testUpdate" time="0.053">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsorship.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       grails.Sponsorship : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsorship.save() != null
+       |           |      |
+       |           null   false
+       grails.Sponsorship : null
+
+	at grails.SponsorshipControllerTests.testUpdate(SponsorshipControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.SponsorshipControllerTests" name="testDelete" time="0.053">
+          <failure message="Assertion failed: &#xa;&#xa;assert sponsorship.save() != null&#xa;       |           |      |&#xa;       |           null   false&#xa;       grails.Sponsorship : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert sponsorship.save() != null
+       |           |      |
+       |           null   false
+       grails.Sponsorship : null
+
+	at grails.SponsorshipControllerTests.testDelete(SponsorshipControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="lubos-Vostro-3350" id="5" name="SponsorshipTests" package="grails" tests="1" time="0.233" timestamp="2012-07-16T12:20:39">
+      <properties />
+
+      <testcase classname="grails.SponsorshipTests" name="testSomething" time="0.108">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at grails.SponsorshipTests.testSomething(SponsorshipTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="lubos-Vostro-3350" id="6" name="TaskControllerTests" package="grails" tests="8" time="2.943" timestamp="2012-07-16T12:20:33">
+      <properties />
+
+      <testcase classname="grails.TaskControllerTests" name="testIndex" time="1.658" />
+
+      <testcase classname="grails.TaskControllerTests" name="testList" time="0.443" />
+
+      <testcase classname="grails.TaskControllerTests" name="testCreate" time="0.106" />
+
+      <testcase classname="grails.TaskControllerTests" name="testSave" time="0.153">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/task/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@27cf35d3&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/task/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@27cf35d3
+
+	at grails.TaskControllerTests.testSave(TaskControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TaskControllerTests" name="testShow" time="0.19">
+          <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       grails.Task : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       grails.Task : null
+
+	at grails.TaskControllerTests.testShow(TaskControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TaskControllerTests" name="testEdit" time="0.14">
+          <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       grails.Task : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       grails.Task : null
+
+	at grails.TaskControllerTests.testEdit(TaskControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TaskControllerTests" name="testUpdate" time="0.081">
+          <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       grails.Task : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       grails.Task : null
+
+	at grails.TaskControllerTests.testUpdate(TaskControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TaskControllerTests" name="testDelete" time="0.073">
+          <failure message="Assertion failed: &#xa;&#xa;assert task.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       grails.Task : null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert task.save() != null
+       |    |      |
+       |    null   false
+       grails.Task : null
+
+	at grails.TaskControllerTests.testDelete(TaskControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="lubos-Vostro-3350" id="7" name="TaskServiceTests" package="grails" tests="1" time="0.873" timestamp="2012-07-16T12:20:32">
+      <properties />
+
+      <testcase classname="grails.TaskServiceTests" name="testAddDefaultTasks" time="0.235">
+          <error message="No signature of method: grails.TekUser.methodMissing() is applicable for argument types: () values: []" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: grails.TekUser.methodMissing() is applicable for argument types: () values: []
+	at grails.TaskServiceTests.testAddDefaultTasks(TaskServiceTests.groovy:36)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testAddDefaultTasks--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testAddDefaultTasks--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lubos-Vostro-3350" id="8" name="TaskTests" package="grails" tests="1" time="0.138" timestamp="2012-07-16T12:20:38">
+      <properties />
+
+      <testcase classname="grails.TaskTests" name="testSomething" time="0.134" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="lubos-Vostro-3350" id="9" name="TekEventControllerTests" package="grails" tests="8" time="0.848" timestamp="2012-07-16T12:20:38">
+      <properties />
+
+      <testcase classname="grails.TekEventControllerTests" name="testIndex" time="0.331" />
+
+      <testcase classname="grails.TekEventControllerTests" name="testList" time="0.053" />
+
+      <testcase classname="grails.TekEventControllerTests" name="testCreate" time="0.046" />
+
+      <testcase classname="grails.TekEventControllerTests" name="testSave" time="0.061">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/tekEvent/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4f36836c&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/tekEvent/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4f36836c
+
+	at grails.TekEventControllerTests.testSave(TekEventControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekEventControllerTests" name="testShow" time="0.074">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekEvent.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       null, null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekEvent.save() != null
+       |        |      |
+       |        null   false
+       null, null
+
+	at grails.TekEventControllerTests.testShow(TekEventControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekEventControllerTests" name="testEdit" time="0.064">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekEvent.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       null, null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekEvent.save() != null
+       |        |      |
+       |        null   false
+       null, null
+
+	at grails.TekEventControllerTests.testEdit(TekEventControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekEventControllerTests" name="testUpdate" time="0.065">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekEvent.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       null, null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekEvent.save() != null
+       |        |      |
+       |        null   false
+       null, null
+
+	at grails.TekEventControllerTests.testUpdate(TekEventControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekEventControllerTests" name="testDelete" time="0.071">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekEvent.save() != null&#xa;       |        |      |&#xa;       |        null   false&#xa;       null, null&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekEvent.save() != null
+       |        |      |
+       |        null   false
+       null, null
+
+	at grails.TekEventControllerTests.testDelete(TekEventControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lubos-Vostro-3350" id="10" name="TekEventTests" package="grails" tests="1" time="0.142" timestamp="2012-07-16T12:20:38">
+      <properties />
+
+      <testcase classname="grails.TekEventTests" name="testToString" time="0.057" />
+
+      <system-out><![CDATA[--Output from testToString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testToString--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="lubos-Vostro-3350" id="11" name="TekUserControllerTests" package="grails" tests="8" time="0.845" timestamp="2012-07-16T12:20:37">
+      <properties />
+
+      <testcase classname="grails.TekUserControllerTests" name="testIndex" time="0.214" />
+
+      <testcase classname="grails.TekUserControllerTests" name="testList" time="0.044" />
+
+      <testcase classname="grails.TekUserControllerTests" name="testCreate" time="0.064" />
+
+      <testcase classname="grails.TekUserControllerTests" name="testSave" time="0.053">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/tekUser/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@29cf542&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/tekUser/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@29cf542
+
+	at grails.TekUserControllerTests.testSave(TekUserControllerTests.groovy:49)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekUserControllerTests" name="testShow" time="0.106">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekUser.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.TekUser@37e79b10 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekUser.save() != null
+       |       |      |
+       |       null   false
+       grails.TekUser@37e79b10 (toString() == null)
+
+	at grails.TekUserControllerTests.testShow(TekUserControllerTests.groovy:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekUserControllerTests" name="testEdit" time="0.068">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekUser.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.TekUser@13a9f63f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekUser.save() != null
+       |       |      |
+       |       null   false
+       grails.TekUser@13a9f63f (toString() == null)
+
+	at grails.TekUserControllerTests.testEdit(TekUserControllerTests.groovy:83)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekUserControllerTests" name="testUpdate" time="0.072">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekUser.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.TekUser@31664cde (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekUser.save() != null
+       |       |      |
+       |       null   false
+       grails.TekUser@31664cde (toString() == null)
+
+	at grails.TekUserControllerTests.testUpdate(TekUserControllerTests.groovy:104)
+</failure>
+
+      </testcase>
+
+      <testcase classname="grails.TekUserControllerTests" name="testDelete" time="0.071">
+          <failure message="Assertion failed: &#xa;&#xa;assert tekUser.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       grails.TekUser@67df02c9 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert tekUser.save() != null
+       |       |      |
+       |       null   false
+       grails.TekUser@67df02c9 (toString() == null)
+
+	at grails.TekUserControllerTests.testDelete(TekUserControllerTests.groovy:148)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lubos-Vostro-3350" id="12" name="TekUserTests" package="grails" tests="1" time="0.012" timestamp="2012-07-16T12:20:41">
+      <properties />
+
+      <testcase classname="grails.TekUserTests" name="testToString" time="0.011" />
+
+      <system-out><![CDATA[--Output from testToString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testToString--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

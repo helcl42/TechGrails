@@ -1,0 +1,5 @@
+Server running. Browse to http://localhost:8080/grails
+2012-07-19 21:26:21,632 [http-bio-8080-exec-10] ERROR resource.ResourceMeta  - Resource not found: /plugins/grails-ui-1.2.3/js/grailsui/grailsui-min.js
+2012-07-19 21:26:33,193 [http-bio-8080-exec-2] ERROR resource.ResourceMeta  - Resource not found: /plugins/grails-ui-1.2.3/js/grailsui/grailsui-min.js
+2012-07-19 21:26:37,485 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /plugins/grails-ui-1.2.3/js/grailsui/grailsui-min.js
+2012-07-19 21:27:22,028 [http-bio-8080-exec-4] ERROR resource.ResourceMeta  - Resource not found: /plugins/grails-ui-1.2.3/js/grailsui/grailsui-min.js
